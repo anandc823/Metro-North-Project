@@ -63,7 +63,6 @@ f.write("</HEAD>\n")
 f.write("</body>\n")
 for line in allLines:
     line = line.strip()
-    # here is where you should add your code to process the file
     if(line == '<div id="navyheader"style="font-weight:bold;padding-left:25px;padding-bottom:25px;">'):
         condition = True
     if(line == '<body onLoad="MSG();">'):
